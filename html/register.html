@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Shopping Online</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-nav">
+            <div class="left-icon">
+                <div class="logo"><img src="../image/shop-online.svg" alt=""></div>
+                <ul class="links">
+                    <li> <a class="nav-link active" href="../index.html">Home</a> </li>
+                    <li> <a class="nav-link " href="#">About</a> </li>
+                    <li> <a class="nav-link " href="#">Contact Us</a> </li>
+                    <li><a class="nav-link " href="#">Cart</a></li>
+                </ul>
+            </div>
+            <div class="right-icon">
+                <a href="/html/register.html" target="_self" class="registerBtn btn"> Register </a>
+                <a href="/html/login.html" target="_self" class="loginBtn btn"> Login </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div class="form">
+                <div class="input">
+                    <h1>Register</h1>
+
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <p class="error-message name-message">invalid Name enter more 3 char</p>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <p class="error-message email-message">invalid Email enter email valid</p>
+                    <div>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" placeholder="Enter Your Password">
+                    </div>
+                    <p class="error-message password-message">invalid Password enter 6 char</p>
+
+                </div>
+                <div class="output">
+                    <p class="success-message">success</p>
+                    <a class='btn btn-form'>Register</a>
+                    <p class="link-login">Alreedy Have Account ?<a href="./login.html">Login</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
